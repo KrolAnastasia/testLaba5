@@ -172,7 +172,7 @@ def main_game(number_task_run, character_x, character_y):
             draw_task("4. Ir al restaurante hacia arriba y hacia la derecha.")
             if character_rect.x > 430 and character_rect.y > 90 and character_rect.x < 550 and character_rect.y <130:
                 font = pygame.font.Font('C:\WINDOWS\Fonts\\consola.ttf', 36)
-                text = font.render("¡Correcto!!", True, (0, 0, 0))
+                text = font.render("¡Muy bien!!", True, (0, 0, 0))
                 text_rect = text.get_rect(center=(screen_width // 2, map_height // 2))
                 screen.blit(text, text_rect)
                 s.play()
