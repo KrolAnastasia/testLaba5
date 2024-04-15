@@ -31,7 +31,7 @@ def main_game(number_task_run, character_x, character_y):
 
     pygame.mixer.music.load("assets/music.mp3") # загрузка музыки на фон
     pygame.mixer.music.play(-1)  # включение музыки на фоне
-    s = pygame.mixer.Sound("assets/si.ogg") # звуковой эффект "успешного выполнения задания"
+    s = pygame.mixer.Sound("assets/hola.ogg") # звуковой эффект "успешного выполнения задания"
 
     # Установка размеров окна
     screen = pygame.display.set_mode((screen_width, screen_height))
