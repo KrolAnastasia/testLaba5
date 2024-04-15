@@ -95,8 +95,8 @@ def cine():
         screen.blit(text, text_rect)
 
     # Подсказка
-    hint_width = 350
-    hint_height = 400
+    hint_width = 450
+    hint_height = 500
     screen_hint = pygame.image.load("assets/cine/hint.png")
     screen_hint = pygame.transform.scale(screen_hint, (hint_width, hint_height))
 
