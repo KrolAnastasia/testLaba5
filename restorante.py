@@ -1,7 +1,7 @@
 import pygame
 import time
 
-screen_width = 4000
+screen_width = 5000
 screen_height = 800
 
 # Определение цветов
